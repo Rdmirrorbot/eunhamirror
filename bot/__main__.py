@@ -154,9 +154,9 @@ help_string_telegraph = f'''<br>
 <b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
-        title='EunhaMirror Help',
-        author_name='Eunha',
-        author_url='https://t.me/EunhaMirror',
+        title='RDriveMirror Help',
+        author_name='RDriveMirror',
+        author_url='https://t.me/RDriveMirror',
         html_content=help_string_telegraph,
     )["path"]
 
